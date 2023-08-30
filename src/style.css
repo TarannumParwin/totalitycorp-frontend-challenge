@@ -1,0 +1,301 @@
+
+
+/* Styling for the product component */
+.product {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product img {
+  max-width: 100%;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product p {
+  font-weight: bold;
+  color: #333;
+}
+
+.product button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Styling for the cart component */
+.cart {
+  background-color: #f5f5f5;
+  border: 1px solid #df8383;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.cart h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  color: #555;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+  max-width: 60px;
+  margin-right: 15px;
+}
+
+.cart-item-content {
+  flex-grow: 1;
+}
+
+.cart-item h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.cart-item p {
+  margin: 5px 0;
+  color: #888;
+}
+
+.cart-item-quantity {
+  display: flex;
+  align-items: center;
+  
+}
+
+.cart-item-quantity button {
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 0.8rem;
+}
+
+.cart-summary {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.cart-summary p {
+  margin: 5px 0;
+  font-weight: bold;
+  color: #555;
+}
+
+
+
+/* Styling for the checkout modal overlay */
+.checkout-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  backdrop-filter: blur(5px); /* Apply blur effect to the background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Styling for the checkout modal content */
+.checkout-modal-content {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  z-index: 1001;
+  border-radius: 8px;
+}
+
+/* Styling for the close button */
+.checkout-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.checkout-form {
+  margin-top: 20px;
+}
+
+.checkout-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.checkout-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.checkout-form input:focus {
+  border-color: #007bff;
+}
+
+/* Styling for the place order button */
+.place-order-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+  width: 100%;
+}
+
+.place-order-button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styling for the form section */
+.checkout-form-section {
+  margin-bottom: 20px;
+}
+
+/* Additional styling for the section titles */
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+/* Styling for the cart image wrapper */
+.cart-image-wrapper {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Styling for the cart image */
+.cart-image-wrapper img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.cart-image-wrapper img:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+/* style.css */
+
+/* Styling for the filter section */
+.filter-section {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.filter-group {
+  margin-right: 10px;
+}
+
+.filter-group label {
+  font-weight: bold;
+  margin-right: 5px;
+  color: #333; /* Dark text color */
+}
+
+.filter-group select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333; /* Dark text color */
+  background-color: #f5f5f5; /* Light gray background */
+}
+
+.filter-group select:focus {
+  outline: none;
+  border-color: #007bff; /* Blue border on focus */
+}
+
+/* Optional: Styling for option colors */
+.filter-group select option {
+  color: #333; /* Dark text color */
+}
+
+/* Additional styling for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff; /* Blue background */
+  padding: 10px 20px;
+  color: #fff; /* White text color */
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #fff; /* White text color */
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-links a:hover {
+  color: #f0f0f0; /* Light gray text color on hover */
+}
