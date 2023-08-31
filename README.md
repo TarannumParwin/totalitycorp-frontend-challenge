@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+ React JS: I used React JS as the front-end library to build the user interface and manage the application's state. React's component-based architecture and virtual DOM make it efficient for creating dynamic and interactive UIs.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+JavaScript (ES6+): JavaScript is the primary programming language for building dynamic web applications. ES6+ features offer modern syntax and powerful functionalities that enhance code readability and maintainability.
 
-## Available Scripts
+CSS: I used CSS for styling the user interface of the application. CSS is essential for creating visually appealing and responsive designs.
 
-In the project directory, you can run:
 
-### `npm start`
+useState Hook: I used the useState hook from React to manage the state of the application. It allowed me to maintain and update state without using class components.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Components: I organized the application into modular components to promote reusability, readability, and maintainability. Each component has a specific responsibility, making it easier to manage and update.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Props: I used props to pass data and functions between parent and child components. This allowed me to create a clear flow of data and actions within the application.
 
-### `npm test`
+Functional Programming: Functional programming principles were applied throughout the codebase, which promotes cleaner code, immutability, and easier testing.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Version Control (Git): I used Git for version control, allowing me to track changes to the codebase, collaborate with others, and manage the project's history.
 
-### `npm run build`
+GitHub: GitHub was used as a remote repository to store and share the project's source code. It also provides collaboration features and issue tracking.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Responsive Design: While not explicitly mentioned, I followed responsive design principles to ensure the application works well on different screen sizes and devices.
