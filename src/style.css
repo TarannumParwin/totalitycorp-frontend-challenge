@@ -1,5 +1,3 @@
-
-
 /* Styling for the product component */
 .product {
   border: 1px solid #ddd;
@@ -33,7 +31,6 @@
 .product button:hover {
   background-color: #0056b3;
 }
-
 
 /* Styling for the cart component */
 .cart {
@@ -88,7 +85,6 @@
 .cart-item-quantity {
   display: flex;
   align-items: center;
-  
 }
 
 .cart-item-quantity button {
@@ -113,8 +109,6 @@
   color: #555;
 }
 
-
-
 /* Styling for the checkout modal overlay */
 .checkout-modal-overlay {
   position: fixed;
@@ -127,7 +121,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000; /* Ensure it's above other content */
+  z-index: 1000;
 }
 
 /* Styling for the checkout modal content */
@@ -228,8 +222,6 @@
 .cart-image-wrapper img:hover {
   transform: scale(1.1); /* Zoom effect on hover */
 }
-
-/* style.css */
 
 /* Styling for the filter section */
 .filter-section {
