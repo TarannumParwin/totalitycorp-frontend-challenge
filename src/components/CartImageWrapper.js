@@ -1,9 +1,16 @@
-import React from 'react';
-import Cart from './Cart';
-import cartImage from './cart-148964_1280.webp';
+import React from "react";
+import Cart from "./Cart";
+import cartImage from "./cart-148964_1280.webp";
 
-const CartImageWrapper = ({ cartItems, isOpen, onClick, increaseQuantity, decreaseQuantity, removeItem }) => {
-    const itemCount = cartItems.reduce((total, item) => total + item.quantity, 0);
+const CartImageWrapper = ({
+  cartItems,
+  isOpen,
+  onClick,
+  increaseQuantity,
+  decreaseQuantity,
+  removeItem,
+}) => {
+  const itemCount = cartItems.reduce((total, item) => total + item.quantity, 0);
 
   return (
     <div className="cart-image-wrapper">
